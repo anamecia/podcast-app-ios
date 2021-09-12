@@ -10,7 +10,7 @@ const Root = () => {
   return (
     <NavigationContainer>
       <RootStack.Navigator>
-        <RootStack.Screen name={RootPath.HOME} component={HomeScreens} />
+        <RootStack.Screen name={RootPath.HOME} component={HomeScreens} options={{headerShown:false}}/>
         {/* <RootStack.Screen name={RootPath.AUTH} component={authStack} /> */}
       </RootStack.Navigator>
     </NavigationContainer>
