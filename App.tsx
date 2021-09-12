@@ -18,6 +18,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import {SearchBar} from 'react-native-screens';
 
 import {
   Colors,
@@ -36,10 +37,9 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      {/* <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} /> */}
+    // <SafeAreaView>
       <Navigation />
-    </SafeAreaView>
+    // </SafeAreaView>
   );
 };
 
