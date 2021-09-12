@@ -1,10 +1,17 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const Home = () => {
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text style={{color: '#000000'}}>Home Screen</Text>
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 20,
+      }}>
+      <SearchBar />
     </View>
   );
 };
