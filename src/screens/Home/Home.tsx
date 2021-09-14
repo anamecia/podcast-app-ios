@@ -1,17 +1,14 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
+import ScrollableHorizontalList from '../../components/ScrollableHorizontalList/ScrollableHorizontalList';
 import SearchBar from '../../components/SearchBar/SearchBar';
+import {homeScreenStyles} from './styles';
 
 const Home = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: 20,
-      }}>
+    <View style={homeScreenStyles.Layout}>
       <SearchBar />
+      <ScrollableHorizontalList header={'Trending'} />
     </View>
   );
 };

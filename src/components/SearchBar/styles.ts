@@ -10,6 +10,7 @@ export const searchBarStyles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: CustomColors.white,
     padding: 10,
+    
   },
   Input: {
     paddingLeft: 10,
